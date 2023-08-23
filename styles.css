@@ -11,6 +11,7 @@ html{
 }
 
 body{
+    background-color: #F5F5F4;
     font-family: "Outfit", sans-serif, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -22,8 +23,74 @@ body{
 }
 
 .header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     grid-column: 2/3;
+    background-color: #FAFAFA;
     border: 2px solid orange;
+    align-items: center;
+}
+
+.nav ul{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;    
+}
+
+.nav li{
+    list-style: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #27272A;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.labels{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.search, .profile{
+    display: flex;
+}
+
+.search-bar{
+    border: none;
+    border-radius: 15px;
+    background-color: #E5E7EB;
+}
+
+.search-icon{
+    border: none;
+    background-color: transparent;
+    padding: 14px;
+    background-image: url(./src/icons/search.svg);
+    background-repeat: no-repeat;
+}
+
+.notification{
+    background-image: url(./src/icons/notifications.svg);
+    background-repeat: no-repeat;
+    padding: 14px;
+}
+
+.profile-picture{
+    background-image: url(./src/images/profile-picture1.png);
+    background-size:cover ;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+}
+
+.profile-name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    align-self: center;
 }
 
 .sidebar{

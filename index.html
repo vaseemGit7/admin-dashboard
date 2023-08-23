@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin-dashboard</title>
+    <title>Admin Dashboard</title>
     <link rel="stylesheet" href="./styles.css">
     <script defer src="./script.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="header"></div>
+        <div class="header">
+            <div class="nav">
+                <ul>
+                    <li><a href="">New</a></li>
+                    <li><a href="">Upload</a></li>
+                    <li><a href="">Share</a></li>
+                </ul>
+            </div>
+            <div class="labels">
+                <div class="search">
+                    <input type="text" id="search-bar">
+                    <button class="search-icon"><img src="./src/icons/search.svg" alt="Search"></button>
+                </div>
+                <div class="notification"></div>
+                <div class="profile">
+                    <div class="profile-picture"></div>
+                    <div class="profile-name">Vaseem</div> 
+                </div>
+            </div>
+        </div>
         <div class="sidebar"></div>
         <div class="content"></div>
     </div>

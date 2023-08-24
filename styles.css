@@ -18,7 +18,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 100px 500px;
+    grid-template-rows: 1fr 5fr;
     gap: 15px;
     padding-right:15px;
 }
@@ -112,8 +112,45 @@ body{
 }
 
 .sidebar{
-    grid-row: 1/3;
-    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,max-content);
+    grid-row: 1/3;  
+    background-color: #27272A;
+    padding: 30px 40px;
+    gap: 40px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-icon{
+    height: 40px;
+    width: 40px;
+    background-image: url(./src/icons/logo-slack.svg);
+    fill: white;
+}
+
+.logo-title{
+    font-size: 3.6rem;
+    font-weight:600;
+    color: white;
+}
+
+.sidebar-nav, .user-settings{
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-name, .user-options{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
 }
 
 .content{

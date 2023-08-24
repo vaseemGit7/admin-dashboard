@@ -128,10 +128,8 @@ body{
 }
 
 .logo-icon{
-    height: 40px;
-    width: 40px;
-    background-image: url(./src/icons/logo-slack.svg);
-    fill: white;
+  font-size: 40px;
+  color: white;
 }
 
 .logo-title{
@@ -140,11 +138,23 @@ body{
     color: white;
 }
 
+ion-icon{
+    font-size: 24px;
+    color: #E5E5E5;
+}
+
+.sidebar-nav li, .user-settings li{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
 .sidebar-nav, .user-settings{
     display: grid;
     grid-template-columns: 1fr;
     list-style: none;
     gap: 20px;
+    padding: 5px;
 }
 
 .nav-name, .user-options{

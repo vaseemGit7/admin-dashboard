@@ -178,7 +178,7 @@ ion-icon{
 
 .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     gap: 25px;
 }
 
@@ -222,6 +222,30 @@ ion-icon{
 
 .card-image-six{
     background-image: url(./src/images/card-image1.jpeg);
+}
+
+.card-image-seven{
+    background-image: url(./src/images/card-image3.jpeg);
+}
+
+.card-image-eight{
+    background-image: url(./src/images/card-image2.jpeg);
+}
+
+.card-image-nine{
+    background-image: url(./src/images/card-image5.jpeg);
+}
+
+.card-image-ten{
+    background-image: url(./src/images/card-image1.jpeg);
+}
+
+.card-image-eleven{
+    background-image: url(./src/images/card-image4.jpeg);
+}
+
+.card-image-twelve{
+    background-image: url(./src/images/card-image2.jpeg);
 }
 
 .card-title{

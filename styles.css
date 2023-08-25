@@ -17,8 +17,8 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-columns: max-content 4fr;
+    grid-template-rows: max-content 5fr;
     gap: 15px;
     padding-right:15px;
 }

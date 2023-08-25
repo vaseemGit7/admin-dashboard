@@ -247,15 +247,16 @@ ion-icon{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: max-content max-content;
+    gap: 50px;
 }
 
-.announcement-container{
+.announcement-container, .trending-container{
     display: grid;
     grid-template-rows: max-content max-content;
     gap: 10px;
 }
 
-.announcements{
+.announcements, .trending-topics{
     display: grid;
     grid-auto-rows: max-content;
     background: #FAFAFA;
@@ -282,4 +283,44 @@ ion-icon{
 
 .announcement-message a{
     color: #6E6E6E;
+}
+
+.trending-card{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-auto-rows: max-content;
+    gap: 10px;
+}
+
+.display-picture{
+    background-size:cover ;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+}
+
+.dp-one{
+    background-image: url(./src/images/profile-picture1.png);
+}
+
+.dp-two{
+    background-image: url(./src/images/profile-picture2.png); 
+}
+
+.dp-three{
+    background-image: url(./src/images/profile-picture3.png);
+}
+
+.dp-four{
+    background-image: url(./src/images/profile-picture4.png);
+}
+
+.user-name{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.trending-message{
+    margin-top: 5px;
+    font-size: 1.6rem;
 }

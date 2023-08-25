@@ -260,6 +260,26 @@ ion-icon{
     grid-auto-rows: max-content;
     background: #FAFAFA;
     border-radius: 10px;
-    gap: 5px;
-    padding: 10px;
+    gap: 10px;
+    padding: 20px;
+}
+
+.announcement-title{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.announcement-message{
+    margin-top: 5px;
+    font-size: 1.6rem;
+}
+
+.line-break{
+    width: auto;
+    height: 1px;
+    background-color: #6E6E6E;
+}
+
+.announcement-message a{
+    color: #6E6E6E;
 }

@@ -52,7 +52,7 @@ body{
 .nav li a{
     text-decoration: none;
     color: #27272A;
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -168,6 +168,7 @@ ion-icon{
     grid-template-columns: 4fr 1fr;
     grid-template-rows: auto;
     gap: 20px;
+    padding-bottom: 30px;
 }
 
 .container-title{
@@ -250,7 +251,7 @@ ion-icon{
     gap: 50px;
 }
 
-.announcement-container, .trending-container{
+.announcement-container, .trending-container, .project-container{
     display: grid;
     grid-template-rows: max-content max-content;
     gap: 10px;
